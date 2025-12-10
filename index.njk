@@ -1,0 +1,16 @@
+---
+layout: base.njk
+stylesheet: /static/css/index.css
+---
+<h1 id="title">Abdullah's Blog</h1>
+<p id="subtitle">
+    I love many things and make simple stuff. Welcome to my blog.
+</p>
+<div class="posts">
+    {% for post in collections.posts %}
+    <a href="{{ post.url }}">{{ post.data.title }}</a>
+    <p>
+        {{ post.data.preview }}
+    </p>
+    {% endfor %}
+</div>
