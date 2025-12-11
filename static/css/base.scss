@@ -14,8 +14,9 @@ body {
   font-weight: 400;
   font-style: normal;
 
-  margin-top: 6rem;
-  margin-left: 20vw;
+  margin-top: 8rem;
+  margin-left: 30vw;
+  width: 30%;
 }
 
 h1,
@@ -27,4 +28,13 @@ h6 {
   font-family: "Alfa Slab One", serif;
   font-weight: 400;
   font-style: normal;
+}
+
+a {
+  color: vars.$link-color;
+  text-decoration: none;
+
+  &:hover {
+    color: vars.$link-hover-color;
+  }
 }
