@@ -2,6 +2,7 @@
 title: "All You Want is A Feeling"
 tags: ["poetry"]
 layout: note.njk
+date: 2025-05-20
 ---
 How do we learn  
 to love each other  
