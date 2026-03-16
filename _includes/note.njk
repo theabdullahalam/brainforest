@@ -1,0 +1,8 @@
+---
+layout: base.njk
+permalink: "/{{ title | slugify }}/"
+stylesheet: "/static/css/note.css"
+---
+<h1>{{ title }}</h1>
+<p class="date">{{ page.date | readableDate }}</p>
+{{ content | safe }}

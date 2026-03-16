@@ -1,4 +1,5 @@
 @use "./vars";
+@use "./decor";
 
 html,
 body {
@@ -15,8 +16,26 @@ body {
   font-style: normal;
 
   margin-top: 8rem;
-  margin-left: 30vw;
-  width: 30%;
+  margin-left: 20vw;
+  width: 40%;
+
+  padding-bottom: 8rem;
+
+  @media screen and (max-width: 1100px) {
+    margin-left: 20vw;
+    width: 50%;
+  }
+
+  @media screen and (max-width: 850px) {
+    margin-left: 10vw;
+    width: 70%;
+  }
+
+  @media screen and (max-width: 650px) {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: initial;
+  }
 }
 
 h1,
@@ -28,6 +47,69 @@ h6 {
   font-family: "Alfa Slab One", serif;
   font-weight: 400;
   font-style: normal;
+  z-index: 2;
+  position: relative;
+}
+
+p {
+  z-index: 2;
+  position: relative;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  opacity: 0.95;
+
+  margin-top: 0;
+  margin-bottom: 2rem;
+
+  @media screen and (max-width: 650px) {
+    font-size: 1rem;
+  }
+
+  a {
+    opacity: 1;
+    color: vars.$p-link-color;
+  }
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 0rem;
+  margin-top: 1rem;
+
+  @media screen and (max-width: 550px) {
+    line-height: 4.5rem;
+  }
+
+  @media screen and (max-width: 650px) {
+    overflow-wrap: break-word;
+    hyphens: auto;
+    font-size: 2.5rem;
+    line-height: 2.8rem;
+  }
+}
+
+h2 {
+  font-size: 2rem;
+  color: vars.$h2-color;
+  margin-bottom: 0;
+
+  @media screen and (max-width: 400px) {
+    overflow-wrap: break-word;
+    hyphens: auto;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+  }
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin: 0.25rem 0;
+  color: vars.$h3-color;
+  opacity: 0.95;
+}
+
+h4 {
+  font-weight: normal;
 }
 
 a {
@@ -36,5 +118,52 @@ a {
 
   &:hover {
     color: vars.$link-hover-color;
+  }
+}
+
+hr {
+  color: white;
+  opacity: 0.2;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100vh;
+}
+
+blockquote {
+  background: #242b3d;
+  margin: 0;
+  padding: 2rem 2rem;
+  margin-bottom: 2rem;
+
+  p {
+    font-style: italic;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+#menu-bar {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 2;
+
+  .menu-item {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    cursor: pointer;
+
+    .icon {
+      height: 1.5rem;
+    }
+
+    &.hidden {
+      display: none;
+    }
   }
 }

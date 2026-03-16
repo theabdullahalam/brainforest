@@ -1,7 +1,15 @@
 @use "./colors";
 
 $background: colors.$space-indigo;
-$link-color: colors.$khaki-beige;
-$link-hover-color: colors.$steel-blue;
+$link-color: colors.$celadon;
+$link-hover-color: colors.$mint-cream;
+
+$p-link-color: colors.$celadon;
+$p-link-hover-color: colors.$khaki-beige;
 
 $icon-color: colors.$khaki-beige;
+$h2-color: colors.$steel-blue;
+$h3-color: colors.$mint-cream;
+
+$black-background: colors.$light-black;
+$black-card: colors.$lighter-black;

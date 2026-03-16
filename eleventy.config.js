@@ -7,7 +7,11 @@ export default async function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("static/fonts");
   eleventyConfig.addPassthroughCopy("static/icons");
   eleventyConfig.addPassthroughCopy("static/js");
-  eleventyConfig.addPassthroughCopy("media");
+  eleventyConfig.addPassthroughCopy("static/img");
+  eleventyConfig.addPassthroughCopy("photography/media");
+  eleventyConfig.addPassthroughCopy({
+    media: "media",
+  });
 
   // sass
   eleventyConfig.addTemplateFormats("scss");
@@ -45,28 +49,26 @@ export default async function(eleventyConfig) {
   });
 
   // rss
- //  eleventyConfig.addPlugin(feedPlugin, {
-	// 	type: "atom", 
-	// 	outputPath: "/feed.xml",
-	// 	collection: {
-	// 		name: "note", 
-	// 		limit: 20,   
-	// 	},
-	// 	metadata: {
-	// 		language: "en",
-	// 		title: "Abdullah's Notes",
-	// 		subtitle: "My digital, public commonplace book",
-	// 		base: "https://notes.theabdullahalam.com",
-	// 		author: {
-	// 			name: "Abdullah Alam",
-	// 		}
-	// 	}
-	// });
-
+  //  eleventyConfig.addPlugin(feedPlugin, {
+  // 	type: "atom",
+  // 	outputPath: "/feed.xml",
+  // 	collection: {
+  // 		name: "note",
+  // 		limit: 20,
+  // 	},
+  // 	metadata: {
+  // 		language: "en",
+  // 		title: "Abdullah's Notes",
+  // 		subtitle: "My digital, public commonplace book",
+  // 		base: "https://notes.theabdullahalam.com",
+  // 		author: {
+  // 			name: "Abdullah Alam",
+  // 		}
+  // 	}
+  // });
 
   // absolute url
   eleventyConfig.addFilter("toAbsoluteUrl", (url) => {
-    return new URL(url, "https://blog.theabdullahalam.com/").href
-  })
+    return new URL(url, "https://blog.theabdullahalam.com/").href;
+  });
 }
-

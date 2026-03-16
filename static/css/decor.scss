@@ -1,0 +1,61 @@
+.decor {
+  color: black;
+  opacity: 0.1;
+  position: fixed;
+  z-index: 1;
+}
+
+#circle-one {
+  width: 4rem;
+  height: 4rem;
+  top: 4.5rem;
+  left: 2rem;
+}
+
+#circle-two {
+  width: 6rem;
+  height: 6rem;
+  top: 3rem;
+  left: 6rem;
+}
+
+#circle-three {
+  width: 8rem;
+  height: 8rem;
+  top: 8rem;
+  left: 2rem;
+}
+
+#ring-one {
+  width: 20rem;
+  height: 20rem;
+  right: 9rem;
+
+  @media screen and (max-width: 850px) {
+    right: 3rem;
+  }
+
+  @media screen and (max-width: 650px) {
+    right: 1rem;
+    top: 20rem;
+  }
+}
+
+#triangle-one {
+  width: 12rem;
+  height: 12rem;
+  bottom: 3rem;
+  left: 8rem;
+
+  transform: rotate(15deg);
+
+  @media screen and (max-width: 1400px) {
+    left: 4rem;
+  }
+  @media screen and (max-width: 1150px) {
+    left: 2rem;
+  }
+  @media screen and (max-width: 900px) {
+    left: 1rem;
+  }
+}

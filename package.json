@@ -1,6 +1,7 @@
 {
     "type": "module",
     "dependencies": {
+        "@sindresorhus/slugify": "^3.0.0",
         "luxon": "^3.7.2",
         "sass": "^1.95.1"
     }
