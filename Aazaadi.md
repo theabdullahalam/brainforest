@@ -2,6 +2,7 @@
 title: "Aazaadi"
 tags: ["poetry"]
 layout: note.njk
+date: 2018-07-09
 ---
 **Kadmon ka tazabzub hai qasoor-e-dil;**  
 **Hai ek taraf pahaad,**  

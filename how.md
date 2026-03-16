@@ -2,6 +2,7 @@
 title: "how"
 tags: ["poetry"]
 layout: note.njk
+date: 2018-09-01
 ---
 how to fall in love with the inevitable rain  
 if it is going to wash your favourite puddle away?

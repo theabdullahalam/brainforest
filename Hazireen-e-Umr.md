@@ -2,6 +2,7 @@
 title: "Hazireen-e-Umr"
 tags: ["poetry"]
 layout: note.njk
+date: 2017-09-09
 ---
 **Nafrat ke darr se khayaalon ko chhupaata reh gaya.**  
 **Chaahat ki chaahat ko yun hi thukraataa reh gaya.**

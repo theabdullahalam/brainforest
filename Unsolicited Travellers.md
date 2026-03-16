@@ -2,6 +2,7 @@
 title: "Unsolicited Travellers"
 tags: ["poetry"]
 layout: note.njk
+date: 2019-12-07
 ---
 I wonder sometimes,  
 am I in somebody's journal?

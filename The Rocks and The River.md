@@ -2,6 +2,7 @@
 title: "The Rocks and The River"
 tags: ["poetry"]
 layout: note.njk
+date: 2026-02-15
 ---
 I wish  
 there was  

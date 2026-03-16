@@ -2,6 +2,7 @@
 title: "A Walk in the Sky"
 tags: ["poetry"]
 layout: note.njk
+date: 2021-10-03
 ---
 Why is it that  
 feelings only  

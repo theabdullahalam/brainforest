@@ -2,6 +2,7 @@
 title: "Help Me"
 tags: ["poetry"]
 layout: note.njk
+date: 2020-01-15
 ---
 Can you help me?
 

@@ -3,9 +3,8 @@ title: "Goodbye - A Short Story"
 layout: note.njk
 tags: ["shortstories"]
 preview: "When partings are necessary"
+date: 2013-03-16
 ---
-> *Originally written in 2013.*
-
 Goodbye", she said.
 
 "Goodbye".

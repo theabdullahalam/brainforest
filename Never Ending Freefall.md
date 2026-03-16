@@ -2,6 +2,7 @@
 title: "Never Ending Freefall"
 tags: ["poetry"]
 layout: note.njk
+date: 2017-01-15
 ---
 Cursing the comforts, the safety of shades  
 Envying the creatures fulfilling their roles  

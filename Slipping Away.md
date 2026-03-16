@@ -2,6 +2,7 @@
 title: "Slipping Away"
 tags: ["poetry"]
 layout: note.njk
+date: 2017-07-18
 ---
 And she slipped away  
 and dripped away  

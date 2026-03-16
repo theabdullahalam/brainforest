@@ -2,6 +2,7 @@
 title: "Doodling on the scrolls of time"
 tags: ["poetry"]
 layout: note.njk
+date: 2026-03-03
 ---
 All these words  
 and all these feelings  

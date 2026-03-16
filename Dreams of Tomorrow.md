@@ -2,6 +2,7 @@
 title: "Dreams of Tomorrow"
 tags: ["poetry"]
 layout: note.njk
+date: 2023-05-19
 ---
 Chasing that  
 will-o'-the-wisp  

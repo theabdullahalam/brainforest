@@ -2,6 +2,7 @@
 title: "Bliss You Are Being Missed"
 tags: ["poetry"]
 layout: note.njk
+date: 2021-11-05
 ---
 Bliss, you are being missed.
 

@@ -2,6 +2,7 @@
 title: "Drowing in Epiphanies"
 tags: ["poetry"]
 layout: note.njk
+date: 2019-05-30
 ---
 Your eyes gape wide in sleepless nights,  
 Thoughts all racing in despair.  

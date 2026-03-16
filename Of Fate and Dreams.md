@@ -2,6 +2,7 @@
 title: "Of Fate and Dreams"
 tags: ["poetry"]
 layout: note.njk
+date: 2025-03-25
 ---
 When my life  
 was totally different,   

@@ -2,6 +2,7 @@
 title: "Ever Feel Like Poetry"
 tags: ["poetry"]
 layout: note.njk
+date: 2019-01-15
 ---
 Ever feel like poetry?
 

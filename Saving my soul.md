@@ -2,6 +2,7 @@
 title: "Saving my soul"
 tags: ["poetry"]
 layout: note.njk
+date: 2026-03-07
 ---
 Today, I felt  
 something new.

@@ -2,6 +2,7 @@
 title: "Forgiving"
 tags: ["poetry"]
 layout: note.njk
+date: 2020-11-11
 ---
 You grew up  
 not knowing  

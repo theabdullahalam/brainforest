@@ -2,6 +2,7 @@
 title: "Oneself"
 tags: ["poetry"]
 layout: note.njk
+date: 2022-01-18
 ---
 Oneself feels like  
 a blurry sphere  

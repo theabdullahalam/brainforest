@@ -2,6 +2,7 @@
 title: "better a work in progress"
 tags: ["poetry"]
 layout: note.njk
+date: 2022-04-21
 ---
 better a work in progress  
 than an unfixable mess?

@@ -2,6 +2,7 @@
 title: "Untitled"
 tags: ["poetry"]
 layout: note.njk
+date: 2021-06-12
 ---
 Untitled.
 

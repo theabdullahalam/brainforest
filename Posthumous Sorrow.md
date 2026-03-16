@@ -2,6 +2,7 @@
 title: "A Posthumous Sorrow"
 tags: ["poetry"]
 layout: note.njk
+date: 2021-03-05
 ---
 Losing a loved one is like  
 Losing a part of yourself, they say.

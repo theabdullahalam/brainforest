@@ -2,6 +2,7 @@
 title: "She was just a girl"
 tags: ["poetry"]
 layout: note.njk
+date: 2026-03-14
 ---
 It's hard to see a life without  
 her in every frame.  

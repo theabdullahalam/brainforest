@@ -2,6 +2,7 @@
 title: "Zamaana Badalta Gaya"
 tags: ["poetry"]
 layout: note.njk
+date: 2018-07-11
 ---
 **Zamaana humse badalne ki zidd karta gaya.**  
 **Hum se pehle khud zamaanaa badalta gaya.**

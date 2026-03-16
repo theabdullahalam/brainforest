@@ -2,6 +2,7 @@
 title: "She was the rose"
 tags: ["poetry"]
 layout: note.njk
+date: 2025-06-05
 ---
 She was the rose,  
 and she was the thorn.

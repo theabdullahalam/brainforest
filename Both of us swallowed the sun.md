@@ -2,6 +2,7 @@
 title: "Both of us swallowed the sun"
 tags: ["poetry"]
 layout: note.njk
+date: 2025-05-25
 ---
 We both  
 swallowed the sun  
