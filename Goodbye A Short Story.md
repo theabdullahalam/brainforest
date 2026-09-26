@@ -1,8 +1,7 @@
 ---
 title: "Goodbye - A Short Story"
 layout: note.njk
-tags: ["shortstories"]
-preview: "When partings are necessary"
+tags: ["prose"]
 date: 2013-03-16
 ---
 Goodbye", she said.

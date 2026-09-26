@@ -1,4 +1,5 @@
 @use "./vars";
+@use "./colors";
 @use "./decor";
 
 html,
@@ -9,11 +10,11 @@ body {
 
 body {
   background: vars.$background;
-  color: white;
+  color: rgb(0, 0, 0);
 
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
 
   margin-top: 8rem;
   margin-left: 20vw;
@@ -44,8 +45,10 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Alfa Slab One", serif;
-  font-weight: 400;
+  // font-family: "Bebas Neue", sans-serif;
+  // font-weight: 400;
+
+  font-weight: bold;
   font-style: normal;
   z-index: 2;
   position: relative;
@@ -54,9 +57,10 @@ h6 {
 p {
   z-index: 2;
   position: relative;
-  font-size: 1.1rem;
-  line-height: 1.5rem;
-  opacity: 0.95;
+  font-size: 1rem;
+  line-height: 1.4rem;
+  
+  color: rgb(25, 23, 21);
 
   margin-top: 0;
   margin-bottom: 2rem;
@@ -75,6 +79,7 @@ h1 {
   font-size: 4rem;
   margin-bottom: 0rem;
   margin-top: 1rem;
+  color: rgb(95, 78, 69);
 
   @media screen and (max-width: 550px) {
     line-height: 4.5rem;
@@ -117,12 +122,13 @@ a {
   text-decoration: none;
 
   &:hover {
-    color: vars.$link-hover-color;
+    color: colors.$steel-blue;
+    // color: vars.$link-hover-color;
   }
 }
 
 hr {
-  color: white;
+  color: rgb(96, 90, 90);
   opacity: 0.2;
 }
 
@@ -132,10 +138,11 @@ img {
 }
 
 blockquote {
-  background: #242b3d;
+  background: #cac1c0;
   margin: 0;
   padding: 2rem 2rem;
   margin-bottom: 2rem;
+  border-radius: 0.5rem;
 
   p {
     font-style: italic;

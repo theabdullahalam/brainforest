@@ -69,6 +69,6 @@ export default async function(eleventyConfig) {
 
   // absolute url
   eleventyConfig.addFilter("toAbsoluteUrl", (url) => {
-    return new URL(url, "https://blog.theabdullahalam.com/").href;
+    return new URL(url, "https://theabdullahalam.com/").href;
   });
 }
